@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background: skyblue;
+}
+.container{
+    display: flex;
+}
+nav{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    /* border: 2px solid red; */
+    left: 0;
+    background:rgb(236, 241, 240);
+    width:250px ;
+    overflow: hidden;
+    box-shadow: 0px 20px 35px royalblue;
+}
+.logo{
+    text-align: center;
+    display: flex;
+    margin: 10px 0px 28px 34px;
+}
+.logo img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    position: relative;
+    left: -25px;
+}
+
+.logo span{
+    /* font-weight: bold; */
+    padding-left: 27px;
+    font-size: 15px;
+    text-transform: uppercase;
+    top: -7px;
+}
+ nav a{
+    position: relative;
+    color:rgb(7, 1, 7);
+    font-size: 18px;
+    width: 250px;
+    display: table;
+    line-height: 59px;
+    /* border-top: 1px solid rgb(185, 184, 184);
+    border-bottom: 1px solid rgb(181, 179, 179); */
+}
+nav li a:hover{
+    /* background: rgb(217, 216, 216); */
+    background-image: linear-gradient(256deg, purple, pink 51%);
+    color: rgb(9, 1, 1);
+    padding-left:10px;
+    transition: 0.7s;
+}
+nav li a:active{
+    background: rgb(94, 144, 224);
+    color: rgb(9, 1, 1);
+    padding-left:10px;
+    transition: 0.7s;
+}
+
+
+ nav .fa{
+    position: relative;
+    width: 130px;
+    height: 55px;
+    top: 8px;
+    left: -23px;
+    text-align: center;
+
+}
+.nav-item{
+    position: relative;
+    top: 8px;
+    margin-left: -37px;
+}
+#logout{
+    position: absolute;
+    bottom: 0px;
+
+}
+header{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background: khaki;
+}
+/*
+.topnav{
+    
+ }
+.topnav ul li{
+    /* display:inline; */
+    /* border: 2px solid red; */
+    /* margin: 11px 3px;
+    padding: 4px 9px;
+    left: 471px;
+    position: relative; 
+
+}
+.topnav ul li a{
+    font-size: 20px;
+    font-style:bold;
+    
+
+}
+
+#dash-search{
+    position: relative;
+    left: 12px;
+    font-size: 16px;
+    /* border-radius: 10px; 
+    height: 40px;
+    z-index: 0;
+}
+#btndash{
+    width: 44px;
+    height: 40px;
+    background: royalblue;
+    border: 1px solid royalblue;
+    margin: 0px 0px;
+    padding: 13px 0px;
+    position: relative;
+    left: 6px
+}
+#btndash:active{
+    color: white;
+}
+.main{
+    border: 2px solid green;
+    
+}
+.dashead{
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+#topnav li{
+    margin:0px 0px;
+    padding:0px 0px;
+} */
+
