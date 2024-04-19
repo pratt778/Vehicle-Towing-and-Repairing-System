@@ -39,15 +39,7 @@
             </nav>
         
     </section>
-    <section>
-        <main>
-            
-            </div>
-            
-        </main>
-    </section>
-    <section>
-    </section>
+    
     <section>
         <div class="about">
             <span id="aboutus">ABOUT US</span>
