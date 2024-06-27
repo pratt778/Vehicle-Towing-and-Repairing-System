@@ -1,1 +1,1 @@
-This is a Vehicle Towing and Repairing System developed with html, css, javascript and php for a college project of BCA program.
+This is a Vehicle Towing and Repairing System using with HTML, CSS, Javascript, PHP, MySQL for a college project of BCA program for the Fourth Semester.
